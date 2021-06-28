@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HeadBar from './components/HeadBar';
+import NavBar from './components/HeadBar';
 import { Footer, Title }  from './components/Footer';
+import Products from './components/Products';
 function App() {
   return (
     <div className="App">
-      <HeadBar/>
+      <NavBar/>
       <Title/>
       <Footer/>
       <Products/>
